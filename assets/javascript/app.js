@@ -18,4 +18,3 @@ console.log(doSearch);
       $("#lead_paragraph").text("Introduction: " + response.lead_pragraph);
     });
 });
-});

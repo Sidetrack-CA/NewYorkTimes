@@ -1,21 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?ucdavisstudant=family" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <body>
+      <h1 id="headers">NY Times Article Search</h1>
+      <div class="container-fluid search">
+                <h2> Search for articles :</h2>
+              <form method="post" class="search-content">
+                <p> Search Term; </p>
+                <input  id="search" type="search"  placeholder="Search" />
+                <p>Numbar of Record</p>
 
-    <title>Document</title>
-</head>
-<body>
-     
-<button id="buttonSearch">Search</button>
-
-
-
-  <!-- Script -->
- 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="assets/javascript/app.js"></script>
-</body>
+              <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                  <p> Start Year</p>
+                  <input  id="startYear" type="search"  name="startYear" />
+                  <p>End Year</p>
+                  <input  id="endYear" type="search"  name="End Year" />
+                  <br>
+                  <input id="btnSearch" type="submit" value="Search!" />
+                  <input id="btnClear" type="submit" value="Clear!" />
+              
+                </form>
+          </div>
+          <h2>Top Articles</h2>
+    <div id="articles">
+      
+      </div>
+  </body>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
 </html>
