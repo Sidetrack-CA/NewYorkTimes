@@ -1,7 +1,7 @@
 # NewYorkTimes
 New York Times API
 
-
+URL: https://sidetrack-ca.github.io/NewYorkTimes/
 
 New York Times article search application.
 How to Run.
